@@ -1,0 +1,64 @@
+.blue-wrapper-title{
+  color: white;
+  display: block;
+  width: bold;
+  text-align: center;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+ .person-image {
+  border-radius: 50%;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+ }
+
+ .people {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-size: 0;
+ }
+
+
+ .person--3 {
+   display: inline-block;
+ }
+ .person--1 {
+  display: inline-block;
+ }
+
+ .person--2 {
+   display: inline-block;
+   margin-left: 70px;
+   margin-right: 70px;
+ }
+
+ .person-name {
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   
+ }
+ .person-title {
+   color: white;
+   font-style: italic;
+   font-size: 20px;
+   width: bold;
+  
+ }
+
+.blue-wrapper-button-wrapper{
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.blue-wrapper-button-wrapper a {
+  font-size: 30px;
+  border: white 1px solid;
+  border-radius: 40px;
+  padding-left: auto;
+  padding-right: auto;
+}

@@ -1,0 +1,64 @@
+.green_box {
+  border: green 3px solid;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.red_box_1,
+.red_box_2,
+.red_box_3 { 
+  background-color: red;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+}
+
+.red_box_2{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.red_box_3{
+  right: 0;
+}
+
+.red_box_4,
+.red_box_5,
+.red_box_6 {
+  background-color: red;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.red_box_5{
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.red_box_6 {
+  right: 0;
+}
+
+.red_box_7,
+.red_box_8,
+.red_box_9 { 
+  background-color: red;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+}
+
+.red_box_8 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.red_box_9 {
+  right: 0;
+}

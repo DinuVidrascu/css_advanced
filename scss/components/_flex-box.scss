@@ -1,0 +1,21 @@
+.flex-container {
+  background-color: purple;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 250px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex-item {
+  background-color: #EF6039;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  order: 1;
+}
+
+/* .flex-item--4 {
+  align-self: flex-end;
+  order: 0; */

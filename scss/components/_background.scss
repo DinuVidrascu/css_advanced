@@ -1,0 +1,206 @@
+.background-box {
+  width: 300px;
+  height: 300px;
+}
+
+.background-box + .background-box {
+  margin-top: 25px;
+}
+
+.background-box--1 {
+  background-color: black;
+  background-image: url("http://unsplash.it/1000/500");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-box--2 {
+  background-color: orange;
+  background-image: url("http://unsplash.it/100/100");
+  background-size: 50px 50px;
+}
+
+.background-box--3 {
+  background-color: palegreen;
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url("http://unsplash.it/50/500");
+}
+
+.background-box--4 {
+  background-color: khaki;
+  background-size: 50px 50px;
+  background-image: 
+  radial-gradient(
+    transparent 28px,
+    #ffffff 28px,
+    #ffffff 32px,
+    transparent 32px
+  );
+}
+
+.background-box--5 {
+  background-color: rgb(146, 69, 165);
+  background-size: 50px 50px;
+  background-image: 
+  radial-gradient( 
+    transparent 1px,
+    #5a3b94 5px,
+    transparent 1px
+  );
+}
+
+.background-box--6 {
+  background-color: rgb(28, 154, 212);
+  background-size: cover;
+  box-shadow: 5px 5px 20px 5px  #0ff;
+}
+
+.background-box--7 {
+  background:
+  linear-gradient(red, transparent),
+  linear-gradient(to top left,
+   lime, transparent),
+   linear-gradient(to top right,
+   blue, transparent);
+  background-blend-mode: screen;
+  box-shadow: tomato 10px 10px 10px;
+}
+
+.background-box--8 {
+  background-size: cover;
+  background: linear-gradient(
+  50deg, red,blue,
+  green,black);
+}
+
+.background-box--9 {
+  background-size: 50px 50px;
+  background: linear-gradient(
+    purple 20%, green 60%);
+}
+
+.background-box--10 {
+  background: linear-gradient(
+    -45deg, black 150px, 
+    silver 150px);
+}
+
+.background-box--11 {
+  background:
+  repeating-linear-gradient(
+      red, yellow 50px);
+}
+
+.background-box--12 {
+  background: repeating-linear-gradient(
+    to top left,
+    yellow,
+    red 20px,
+    blue 10px,
+    blue 40px
+  );
+}
+
+.background-box--13 {
+  background: linear-gradient(
+    to bottom,
+    green,
+    green 20% ,
+    yellow 25%,
+    yellow 50%,
+    orange 50%,
+    orange 75%,
+    red 75%);
+    background-size: cover;
+    box-shadow: tomato 10px 10px 10px;
+}
+
+.background-box--14 {
+  background:
+  radial-gradient(transparent, black),
+  url("http://unsplash.it/100/100");
+  background-size: cover;
+  box-shadow: black 10px 10px 10px;
+}
+
+.background-box--15 {
+  background-size: cover;
+  background-image: 
+  repeating-linear-gradient(
+    to bottom, rgb(255, 0, 0) 0, 
+    rgba(255, 0, 0, 0) 20px,
+    transparent 60px, transparent 60px),
+    repeating-linear-gradient(
+    to right, rgb(34, 0, 255) 0, 
+    rgba(38, 0, 255, 0) 10px,
+    rgb(0, 0, 0) 20px, 
+    rgb(0, 0, 0) 40px);
+}
+
+.background-box--16 {
+  background: conic-gradient(
+    #fff, #000, red);
+}
+
+.background-box--17 {
+  background-color: pink;
+  background-size: 50px 50px;
+  background-image: radial-gradient(
+    transparent 20px,
+    #ffffff 20px,
+    #ffffff 24px,
+    transparent 24px
+    ),
+    radial-gradient(
+      transparent 20px,
+      #ffffff 20px,
+      #ffffff 24px,
+      transparent 24px
+    );
+}
+
+.background-box--18 {
+  background-color: rgba(39, 0, 180, 0.432);
+  background-size: cover;
+  box-shadow: rebeccapurple 10px 10px 30px;
+  background-image: radial-gradient(
+    transparent 20px,
+    #ffffff 20px,
+    #000000 25px,
+    transparent 20px
+    );
+}
+
+.background-box--19 {
+  background-color: orange;
+  background-size: 50px 50px;
+  background-image:
+  linear-gradient(
+    130deg,
+    transparent 55%,
+    orange 55%
+  ),
+   radial-gradient(
+    transparent 5px,
+    #000000 5px,
+    #000000 10px,
+    transparent 10px,
+    transparent 15px,
+    #ffffff 15px,
+    #ffffff 15px,
+    transparent 20px,
+    transparent 25px,
+    #008f3b 25px,
+    #006134 30px,
+    transparent 30px
+  );
+}
+
+.background-box--20 {
+  background-image: 
+  url(https://html5book.ru/wp-content/uploads/2016/12/pale-image.jpg), 
+  linear-gradient(45deg, #006dfc, #e10035);
+  background-blend-mode: exclusion;
+  box-shadow: 5px 5px 35px 10px;
+}

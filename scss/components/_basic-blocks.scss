@@ -1,0 +1,15 @@
+.basic-boxes-wrapper{
+  font-size: 0;
+}
+
+.basic-box {
+  font-size: 16px;
+  border: #000 1px solid;
+  width: calc(20% - 24px);
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.basic-box:nth-child(5n){
+  margin-right: 0;
+}

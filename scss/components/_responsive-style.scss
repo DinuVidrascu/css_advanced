@@ -1,0 +1,35 @@
+.responsive-box--mobile-first,
+.responsive-box--desktop-first {
+  width: 300px;
+  height: 300px;
+}
+
+.responsive-box--desktop-first {
+  background-color: purple;
+}
+
+@media only screen and (max-width: 1199px) {
+  .responsive-box--desktop-first {
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 768px) {
+ .responsive-box--desktop-first {
+    background-color: red;
+  }
+}
+
+.responsive-box--mobile-first {
+  background-color: red;
+}
+
+@media only screen and (min-width: 769px) {
+  .responsive-box--mobile-first {
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .responsive-box--mobile-first {
+    background-color: purple;
+  }
+}

@@ -1,0 +1,79 @@
+@import"base/reset";
+@import"../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import"base/typography";
+@import"base/colors";
+@import"base/variables";
+@import"base/mixins";
+
+@import"layout/grid";
+@import"layout/section";
+
+@import"components/filters";
+@import"components/gradients";
+
+$header-height: 95px;
+$sidebar-width: 231px;
+
+.header {
+  height: $header-height;
+  background-image: linear-gradient( 135deg, 
+  #3C8CE7 10%, 
+  #00EAFF 100%);
+}
+
+.sidebar {
+  position: fixed;
+  top: $header-height;
+  height: calc(100vh - #{$header-height});
+  width: $sidebar-width;
+  background-color:whitesmoke;
+}
+
+.main {
+  position: fixed;
+  top: $header-height;
+  left: $sidebar-width;
+  height: calc(100vh - #{$header-height});
+  width: calc(100vw - #{$sidebar-width});
+  background-color: white;
+}
+
+.main-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.btn {
+  background-image: linear-gradient(to right,
+   #1c92d2 0%, 
+   #f2fcfe  51%,
+   #1c92d2  100%)}
+
+.btn {
+  font-family: Helvetica;
+  margin-bottom: 0.9px;
+  padding: 17px 17px;
+  text-align: left;
+  text-transform: uppercase;
+  transition: 0.4s;
+  background-size: 200% auto;
+  color: black;
+  display: block;
+  text-decoration: none;
+  border-radius: 0px 5px 5px 0px;
+ }
+
+.btn:hover {
+  background-position: right center;
+  text-decoration: none;
+  border-radius: 0px 12px 12px 0px ;
+  border: solid white 0.1px;
+ }
+
+

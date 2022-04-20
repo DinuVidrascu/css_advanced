@@ -1,4 +1,5 @@
 @import"base/reset";
+@import"../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import"base/typography";
 @import"base/colors";
 @import"base/variables";
@@ -7,7 +8,7 @@
 @import"layout/grid";
 @import"layout/section";
 
-@import"components/background";
+@import"components/background-box";
 @import"components/fonts";
 @import"components/icons";
 @import"components/basic-blocks";
@@ -18,3 +19,5 @@
 @import"components/responsive-style";
 @import"components/expert-practice";
 @import"components/banner-practice";
+@import"components/filters";
+@import"components/gradients";

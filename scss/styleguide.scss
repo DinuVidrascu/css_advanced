@@ -13,9 +13,7 @@
 @import"components/gradients";
 @import"components/ratio-box";
 @import"components/transform";
-@import"components/cube";
-@import"components/box";
-@import"components/carousel";
+@import"components/transition";
 
 $header-height: 95px;
 $sidebar-width: 231px;
@@ -64,7 +62,7 @@ $sidebar-width: 231px;
 .btn {
   font-family: Helvetica;
   margin-bottom: 0.9px;
-  padding: 17px 17px;
+  padding: 10px 10px;
   text-align: left;
   text-transform: uppercase;
   transition: 0.4s;

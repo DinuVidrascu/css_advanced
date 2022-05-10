@@ -23,6 +23,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.font-icons {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.svg-icons {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .icon-odnoklassniki-square:before {
   content: "\e904";
   color: orange;

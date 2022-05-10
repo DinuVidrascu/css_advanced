@@ -5,18 +5,95 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="node_modules/tippy.js/dist/tippy.css">
+  <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+  <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="section" id="javascript">
+    <h2 class="section__title">Javascript</h2>
+    <div class="section__content">
+      <a href="#" class="js-tooltip">I have tooltip</a>
+      <div style="display: none;">
+        <ul class="js-tooltip-menu">
+          <li><a href="#">one</a></li>
+          <li><a href="#">two</a></li>
+          <li><a href="#">three</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="swiper" style="width: 600px; height: 300px">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1<img src="http://unsplash.it/600/300" alt=""></div>
+        <div class="swiper-slide">Slide 2<img src="http://unsplash.it/600/300" alt=""></div>
+        <div class="swiper-slide">Slide 3<img src="http://unsplash.it/600/300" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+  <div class="section" id="forms">
+    <h2 class="section__title">Forms</h2>
+    <div class="section__content">
+      <h2 class="section__title--checkbox title_select">Checkbox</h2>
+      <div class="section__checkbox">
+        <input class="checkbox" type="checkbox" id="todo" name="todo" value="todo">
+        <label class="checkbox__on" for="todo" data-content="Get out of bed">Get out of bed</label>
+      </div>
+    </div> 
+    <div class="section__radio">
+      <h2 class="title_select">Radio Box</h2>
+      <label class="radio-box">
+        <input class="gender gender__male" type="radio" name="gender" value="male" checked>
+        <span class="design"></span>
+        <span class="male gender__value">Male</span>
+      </label>
+      <label class="radio-box">
+        <input class="gender gender__female" type="radio" name="gender" value="female">
+        <span class="design"></span>
+        <span class="female gender__value">Female</span>
+      </label>
+      <label class="radio-box">
+        <input class="gender gender__other" type="radio" name="gender" value="other">
+        <span class="design"></span>
+        <span class="other gender__value">Other</span>
+      </label>
+    </div>
+    <h2 class="title_select">Textfield</h2>
+    <div class="textfield">
+    <div class="form__group field">
+      <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+      <label for="name" class="form__label">Name</label>
+    </div>
+    </div>
+    <h2 class="title_select">Switch</h2>
+    <div class="switch">
+    <input class="switch__on" type="checkbox" id="toggle"/>
+    <label class="toggle" for="toggle"></label>
+    </div>
+    <div class="content_select"></div>
+    <h1 class="title_select">Selectbox</h1>
+    <div class="styled-select">
+      <select>
+        <option>Here is the first option</option>
+        <option>The second option</option>
+        <option>The thrid option</option>
+      </select>
+      <span class="fa fa-sort-desc"></span>
+    </div>
+  </div>
   <section class="section" id="transitions">
     <h2 class="section__title">Transitions</h2>
     <div class="section__content">
-      <h1>Animation:</h1>
+      <h1 class="title_select">Animation</h1>
       <div class="animation-area">
         <div class="animation-child"></div>
         <div class="animation-child child__2"></div>
       </div>
-      <h1>Transition:</h1>
+      <h1 class="title_select">Transition</h1>
       <div class="transition-area">
         <div class="transition-child child--1"></div>
         <div class="transition-child child--2"></div>
@@ -33,104 +110,64 @@
       <div class="container">
         <div class="row">
           <div class="col-4 transform-action-area transform-action-area--1">
-            <div class="transform-element transform-element--1">
-              Transform Element 1
-            </div>
+            <div class="transform-element transform-element--1">Transform Element 1</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--2">
-            <div class="transform-element transform-element--2">
-              Transform Element 2
-            </div>
+            <div class="transform-element transform-element--2">Transform Element 2</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--3">
-            <div class="transform-element transform-element--3">
-              Transform Element 3
-            </div>
+            <div class="transform-element transform-element--3">Transform Element 3</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--4">
-            <div class="transform-element transform-element--4">
-              Transform Element 4
-            </div>
+            <div class="transform-element transform-element--4">Transform Element 4</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--5">
-            <div class="transform-element transform-element--5">
-              Transform Element 5
-            </div>
+            <div class="transform-element transform-element--5">Transform Element 5</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--6">
-            <div class="transform-element transform-element--6">
-              Transform Element 6
-            </div>
+            <div class="transform-element transform-element--6">Transform Element 6</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--7">
-            <div class="transform-element transform-element--7">
-              Transform Element 7
-            </div>
+            <div class="transform-element transform-element--7">Transform Element 7</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--8">
-            <div class="transform-element transform-element--8">
-              Transform Element 8
-            </div>
+            <div class="transform-element transform-element--8">Transform Element 8</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--9">
-            <div class="transform-element transform-element--9">
-              Transform Element 9
-            </div>
+            <div class="transform-element transform-element--9">Transform Element 9</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--10">
-            <div class="transform-element transform-element--10">
-              Transform Element 10
-            </div>
+            <div class="transform-element transform-element--10">Transform Element 10</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--11">
-            <div class="transform-element transform-element--11">
-              Transform Element 11
-            </div>
+            <div class="transform-element transform-element--11">Transform Element 11</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--12">
-            <div class="transform-element transform-element--12">
-              Transform Element 12
-            </div>
+            <div class="transform-element transform-element--12">Transform Element 12</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--13">
-            <div class="transform-element transform-element--13">
-              Transform Element 13
-            </div>
+            <div class="transform-element transform-element--13">Transform Element 13</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--14">
-            <div class="transform-element transform-element--14">
-              Transform Element 14
-            </div>
+            <div class="transform-element transform-element--14">Transform Element 14</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--15">
-            <div class="transform-element transform-element--15">
-              Transform Element 15
-            </div>
+            <div class="transform-element transform-element--15">Transform Element 15</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--16">
-            <div class="transform-element transform-element--16">
-              Transform Element 16
-            </div>
+            <div class="transform-element transform-element--16">Transform Element 16</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--17">
-            <div class="transform-element transform-element--17">
-              Transform Element 17
-            </div>
+            <div class="transform-element transform-element--17">Transform Element 17</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--18">
-            <div class="transform-element transform-element--18">
-              Transform Element 18
-            </div>
+            <div class="transform-element transform-element--18">Transform Element 18</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--19">
-            <div class="transform-element transform-element--19">
-              Transform Element 19
-            </div>
+            <div class="transform-element transform-element--19">Transform Element 19</div>
           </div>
           <div class="col-4 transform-action-area transform-action-area--20">
-            <div class="transform-element transform-element--20">
-              Transform Element 20
-            </div>
+            <div class="transform-element transform-element--20">Transform Element 20</div>
           </div>
         </div>
       </div>
@@ -142,8 +179,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-            <div class="ratio-box ratio-box--16-9">
-              <img src="images/11.jpg" alt="">
+            <div class="ratio-box ratio-box--16-9"><img src="images/11.jpg" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
@@ -218,10 +254,9 @@
       </div>
     </div>
   </div>
-  <div class="section">
-    <h2 class="section__title">Banner Practice</h2>
+  <div class="section" id="positions-grid">
     <div class="section__content"> 
-      <div class="section">
+      <div class="section-n">
         <h2 class="section__title">Positions Grid</h2>
         <div class="box">
           <div class="green_box">
@@ -255,7 +290,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="expert-practice">
     <h2 class="section__title">Experts Practice</h2>
     <div class="section__content">
       <div class="experts-block">
@@ -292,7 +327,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="responsive-style">
     <h2 class="section__title">Responsive Styles</h2>
     <div class="section__content">
       <picture>
@@ -304,8 +339,8 @@
       <div class="responsive-box--mobile-first"></div>
     </div>
   </div>
-  <div class="section">
-    <h2 class="section__title">Icon Titles</h2>
+  <div class="section" id="header-bar">
+    <h2 class="section__title">Header Bar</h2>
     <div class="section__content">
       <div class="icon-title">
         <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -316,27 +351,26 @@
         <span class="icon-title__text">Architect</span>
       </div>
     </div>
-  </div>
-  <div class="section" style="font-family: Spartan;">
-    <h2 class="section__title">Header Bar</h2>
-    <div class="section__content">
-      <div class="header">
-        <div class="container">
-          <a href="#" class="logo">
-            <img src="http://unsplash.it/86/34" alt="">
-          </a>
-          <ul class="main-menu">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-          <a href="#" class="button">Sign In</a>
+    <div class="section" style="font-family: Spartan;">
+      <div class="section__content">
+        <div class="header">
+          <div class="container">
+            <a href="#" class="logo">
+              <img src="http://unsplash.it/86/34" alt="">
+            </a>
+            <ul class="main-menu">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#" class="button">Sign In</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="bootstrap-grid">
     <h2 class="section__title">Bootstrap Grid</h2>
     <div class="section__content">
       <div class="container">
@@ -375,7 +409,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="flex-box">
     <h2 class="section__title">Flex Box</h2>
     <div class="section__content">
       <div class="flex-container">
@@ -397,7 +431,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="people-layout">
     <h2 class="section__title">People Layout</h2>
     <div class="section__content"  style=" font-family: Arial, sans-serif; background-color:skyblue;">
       <div class="blue-wrapper" style="padding-top: 50px; padding-bottom: 50px;text-align: center;">
@@ -425,7 +459,7 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="basic-blocks">
     <h2 class="section__title">Basic Blocks</h2>
     <div class="section__content">
       <div class="basic-boxes-wrapper">
@@ -444,11 +478,11 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section" id="icons">
     <h2 class="section__title">Icons</h2>
     <div class="section__content">
       <div class="quote"> Prezentul să-l trăiești cu învățăturile din trecut și cu visurile din viitor. Paolo Coelho.</div>
-      <h3>Font Icons</h3>
+      <h3 class="title_select">Font Icons</h3>
       <ul class="font-icons">
         <li class="icon-facebook"></li>
         <li class="icon-twitter"></li>
@@ -471,7 +505,7 @@
         <li class="icon-origin"></li>
         <li class="icon-youtube"></li>
       </ul>
-      <h3>SVG Icons</h3>
+      <h3 class="title_select">SVG Icons</h3>
       <ul class="svg-icons">
         <li class="">
           <svg class="svg-facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -648,8 +682,8 @@
       </ul>
     </div>
   </div>
-  <div class="section">
-    <h2 class="section__title">Backgrounds</h2>
+  <div class="section" id="background-boxes">
+    <h2 class="section__title">Background-Boxes</h2>
     <div class="section__content">
       <div class="background-box background-box--1"></div>
       <div class="background-box background-box--2"></div>
@@ -673,5 +707,12 @@
       <div class="background-box background-box--20"></div>
     </div>
   </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/select2/dist/js/select2.full.min.js"></script> -->
+  <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+  <script src="node_modules/swiper/swiper-bundle.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

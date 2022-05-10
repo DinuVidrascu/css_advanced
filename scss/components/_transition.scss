@@ -1,5 +1,5 @@
 .transition-area {
-  background-color: #ccc;
+  background-color: silver;
   position: relative;
 
   &::after {
@@ -82,7 +82,7 @@
 
 
 .animation-area {
-  background-color: #ccc;
+  background-color: silver;
   position: relative;
 
   &::after {
@@ -109,101 +109,101 @@
   }
   9% {
     left: calc(100% - 50px);
-    top: 100px;
+    top: 9%;
   }
 
   13% {
     left: 0px;
-    top: 100px;
+    top: 9%;
   }
   17% {
     left: 0px;
-    top: 200px;
+    top: 17%;
   }
   21% {
     left: calc(100% - 50px);
-    top: 200px;
+    top: 21%;
   }
   25% {
     left: calc(100% - 50px);
-    top: 300px;
+    top: 25%;
   }
   29% {
     left: 0;
-    top: 300px;
+    top: 29%;
   }
   33% {
     left: 0;
-    top: 400px;
+    top: 30%;
   }
   37% {
     left: calc(100% - 50px);
-    top: 400px;
+    top: 37%;
   }
   41% {
     left: calc(100% - 50px);
-    top: 500px;
+    top: 41%;
   }
   45% {
     left: 0;
-    top: 500px;
+    top: 45%;
   }
   48% {
     left: 0;
-    top: 600px;
+    top: 48%;
   }
   52% {
     left: calc(100% - 50px);
-    top: 600px;
+    top: 52%;
   }
   56% {
     left: calc(100% - 50px);
-    top: 700px;
+    top: 56%;
   }
   60% {
     left: 0;
-    top: 700px;
+    top: 60%;
   }
   64% {
     left: 0;
-    top: 800px;
+    top: 64%;
   }
   68% {
     left: calc(100% - 50px);
-    top: 800px;
+    top: 68%;
   }
   72% {
     left: calc(100% - 50px);
-    top: 900px;
+    top: 72%;
   }
   76% {
     left: 0;
-    top: 900px;
+    top: 76%;
   }
   80% {
     left: 0;
-    top: 1000px;
+    top: 80%;
   }
   84% {
     left: calc(100% - 50px);
-    top: 1000px;
+    top: 84%;
   }
   88% {
     left: calc(100% - 50px);
-    top: 1100px;
+    top: 88%;
   }
   92% {
     left: 0;
-    top: 1100px;
+    top: 92%;
   }
   96% {
     left: 0;
-    top: 1200px;
+    top: 96%;
   }
   100% {
     background-color: blue;
     left: calc(100% - 50px);
-    top: 1200px;
+    top: 100%;
   }
 }
 

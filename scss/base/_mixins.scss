@@ -1,0 +1,29 @@
+@mixin display-iniline-block-fix($font-size: 16px) {
+  font-size: 0;
+  
+  > * {
+    display: inline-block;
+    font-size: $font-size;
+  }
+}
+
+@function coef-to-percentage($coef) {
+  @return $coef * 100%;
+}
+
+
+@each $name, $weight in $font-weights {
+  .font-weight--#{$name} {
+    font-weight: $weight;
+  }
+}
+
+@each $color, $value in $brand-colors {
+  .color--#{$color} {
+    color: $value;
+  }
+
+  .background-color--#{$color} {
+    background-color: $value;
+  }
+}

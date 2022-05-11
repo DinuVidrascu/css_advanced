@@ -1,3 +1,17 @@
 $mobileLandscape: 565px;
 $tablet: 768px;
 $desktop: 1200px;
+
+$font-weights: (
+  "regular": 400,
+  "bold": 700,
+  "medium": 500,
+  "black": 900,
+  "thin": 100,
+);
+
+$brand-colors: (
+  'primary': '#498123',
+  'secondary': '#457fba',
+  'dark': "3f4f8a",
+);

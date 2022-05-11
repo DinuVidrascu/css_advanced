@@ -1,0 +1,29 @@
+.section {
+  background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgb(191, 210, 233) 100.2% );
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section__title {
+  font-family: Tahoma;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+  font-size: large;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-image: radial-gradient( circle 1224px at 10.6% 8.8%, rgb(211, 226, 239) 0%, rgba(255,255,255,1) 100.2%);
+  display: inline-block;
+}
+
+.title_select {
+  font-family: monospace;
+  font-style: italic;
+  margin: 10px;
+  padding: 1px;
+  border: rgb(31, 103, 161) 2px solid; 
+  border-radius: 5px 10px ;
+  display: inline-block;
+}

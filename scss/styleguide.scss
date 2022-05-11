@@ -14,15 +14,17 @@
 @import"components/ratio-box";
 @import"components/transform";
 @import"components/transition";
+@import "components/forms.scss";
 
 $header-height: 95px;
 $sidebar-width: 231px;
 
 .header {
   height: $header-height;
-  background-image: linear-gradient( 135deg, 
-  #3C8CE7 10%, 
-  #00EAFF 100%);
+  background-image: radial-gradient( 
+    circle farthest-corner at 22.4% 21.7%,  
+  rgba(4,189,228,1) 0%, 
+  rgba(2,83,185,1) 100.2% );
 }
 
 .sidebar {
@@ -31,6 +33,10 @@ $sidebar-width: 231px;
   height: calc(100vh - #{$header-height});
   width: $sidebar-width;
   background-color:rgb(238, 238, 238);
+}
+
+.sidebar:hover {
+  overflow-y: scroll;
 }
 
 .main {
@@ -50,6 +56,7 @@ $sidebar-width: 231px;
   bottom: 0;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 
 .btn {
@@ -59,16 +66,24 @@ $sidebar-width: 231px;
   #1c92d2 100%)
 }
 
+.btn:focus {
+  background-position: right center;
+  text-decoration: none;
+  border-radius: 0px 12px 12px 0px ;
+  border: solid white 0.1px;
+}
+
 .btn {
-  font-family: Helvetica;
+  font-family: monospace;
+  font-size: x-large;
   margin-bottom: 0.9px;
-  padding: 10px 10px;
+  padding: 9px 9px;
   text-align: left;
   text-transform: uppercase;
   transition: 0.4s;
   background-size: 200% auto;
-  color: black;
   display: block;
+  color: black;
   text-decoration: none;
   border-radius: 0px 5px 5px 0px;
 }
@@ -78,6 +93,37 @@ $sidebar-width: 231px;
   text-decoration: none;
   border-radius: 0px 12px 12px 0px ;
   border: solid white 0.1px;
- }
+  
+  .btn:focus {
+    background-position: right center;
+    text-decoration: none;
+    border-radius: 0px 12px 12px 0px ;
+    border: solid white 0.1px;
+  }
+}
 
+.display__icons{
+  padding-top: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: baseline; 
+}
 
+.icons a {
+  border: 1px solid none ;
+  cursor: pointer;
+}
+
+.icons a:focus {
+    border: 2px solid rgba(255, 200, 0, 0.851);
+    border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+  margin-right: 30px;
+}
+
+.icons:last-child {
+  margin-right: 70px;
+}
